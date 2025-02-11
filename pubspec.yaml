@@ -1,0 +1,29 @@
+name: friends_app # Your project name
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Or your SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  hive_flutter: ^1.1.0 # Ensure this line includes the latest compatible version
+  path_provider: ^2.1.1 # Or latest
+  cupertino_icons: ^1.0.6 # If you need Cupertino icons
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1 # Or latest
+  build_runner: ^2.4.11 # Or latest
+  flutter_lints: ^4.0.0 # Or latest
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
