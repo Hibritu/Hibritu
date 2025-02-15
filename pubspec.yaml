@@ -15,6 +15,7 @@ dependencies:
   path_provider: ^2.1.1 # Or latest
   cupertino_icons: ^1.0.6 # If you need Cupertino icons
   hive: ^2.2.3
+  flutter_plugin_android_lifecycle: ^2.0.22
 
 dev_dependencies:
   flutter_test:
